@@ -1,0 +1,520 @@
+{
+  "audit_log": [
+    {
+      "actor_party_id": null,
+      "entry_hash": "d56bf484011fb87e70d8c019424fae5c01b9bb4b87c00bdd0010c958ac0e5a3d",
+      "event_data": {
+        "product_code": "divorce"
+      },
+      "event_type": "contract_created",
+      "prev_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "sequence_number": 1,
+      "timestamp": "2026-08-28T04:51:50.286083+00:00"
+    },
+    {
+      "actor_party_id": null,
+      "entry_hash": "3bcdc6e100c0bcd482bec913924ef027aa29833a7a33362b18141b72ae897a4e",
+      "event_data": {
+        "ai_model_used": "gemini-2.5-flash",
+        "input_keys": [
+          "husband_name",
+          "wife_name",
+          "divorce_date",
+          "custody_parent",
+          "children",
+          "monthly_support",
+          "divorce_reasons",
+          "visitation_frequency",
+          "visitation_method",
+          "support_period",
+          "payment_method",
+          "unpaid_handling",
+          "financial_division",
+          "financial_division_detail",
+          "pension_division",
+          "pension_split_method"
+        ]
+      },
+      "event_type": "draft_generated",
+      "prev_hash": "d56bf484011fb87e70d8c019424fae5c01b9bb4b87c00bdd0010c958ac0e5a3d",
+      "sequence_number": 2,
+      "timestamp": "2026-08-28T04:52:11.041423+00:00"
+    },
+    {
+      "actor_party_id": null,
+      "entry_hash": "172f55b7c61e185757e2766ae0ed152f509f446d03474283845f20623d4ed093",
+      "event_data": {
+        "full_text_hash": "50ca4f9e51a4f5ebc3d5c29c430bc77824ec51a2df8a0f7adfd3aea97d1f73a4"
+      },
+      "event_type": "text_finalized",
+      "prev_hash": "3bcdc6e100c0bcd482bec913924ef027aa29833a7a33362b18141b72ae897a4e",
+      "sequence_number": 3,
+      "timestamp": "2026-08-28T04:52:25.961127+00:00"
+    },
+    {
+      "actor_party_id": null,
+      "entry_hash": "5ff3f3ad6b59db6d1a8bd38c0643faaf70c70e1694ec55e1cf1dddb02558ed02",
+      "event_data": {
+        "name": "山田太郎",
+        "role": "kou",
+        "role_label": ""
+      },
+      "event_type": "party_added",
+      "prev_hash": "172f55b7c61e185757e2766ae0ed152f509f446d03474283845f20623d4ed093",
+      "sequence_number": 4,
+      "timestamp": "2026-08-28T04:53:03.421627+00:00"
+    },
+    {
+      "actor_party_id": "6fdf0d3d-d64a-497e-abb8-8015fd2c480f",
+      "entry_hash": "360bacece7e1fff6ec63e6f9f38245af12aed2e80dcda93c11bd7a767fcc6fed",
+      "event_data": {
+        "email": "coredaa5656@gmail.com",
+        "party_id": "6fdf0d3d-d64a-497e-abb8-8015fd2c480f"
+      },
+      "event_type": "invite_sent",
+      "prev_hash": "5ff3f3ad6b59db6d1a8bd38c0643faaf70c70e1694ec55e1cf1dddb02558ed02",
+      "sequence_number": 5,
+      "timestamp": "2026-08-28T04:53:06.349265+00:00"
+    },
+    {
+      "actor_party_id": null,
+      "entry_hash": "8e46e6ff6eb58aa5b6de92856fd7c565028f1b8e2741cb08bf835ab9a0593170",
+      "event_data": {
+        "name": "山田花子",
+        "role": "otsu",
+        "role_label": ""
+      },
+      "event_type": "party_added",
+      "prev_hash": "360bacece7e1fff6ec63e6f9f38245af12aed2e80dcda93c11bd7a767fcc6fed",
+      "sequence_number": 6,
+      "timestamp": "2026-08-28T04:53:06.498146+00:00"
+    },
+    {
+      "actor_party_id": "704e8e28-5d34-48d2-9892-74ab3b714bed",
+      "entry_hash": "999aca2ee36f4220f431c2d97366763fb0d46529686c229f2a05930de921e70e",
+      "event_data": {
+        "email": "360do.inc@gmail.com",
+        "party_id": "704e8e28-5d34-48d2-9892-74ab3b714bed"
+      },
+      "event_type": "invite_sent",
+      "prev_hash": "8e46e6ff6eb58aa5b6de92856fd7c565028f1b8e2741cb08bf835ab9a0593170",
+      "sequence_number": 7,
+      "timestamp": "2026-08-28T04:53:08.668959+00:00"
+    },
+    {
+      "actor_party_id": "6fdf0d3d-d64a-497e-abb8-8015fd2c480f",
+      "entry_hash": "680dfbe7213a6d2069dbb1349ee79c69b37d714a56168132e8e842d01ff3b10e",
+      "event_data": {
+        "credential_aaguid": "00000000-0000-0000-0000-000000000000",
+        "party_id": "6fdf0d3d-d64a-497e-abb8-8015fd2c480f",
+        "party_role": "kou",
+        "transports": []
+      },
+      "event_type": "passkey_registered",
+      "prev_hash": "999aca2ee36f4220f431c2d97366763fb0d46529686c229f2a05930de921e70e",
+      "sequence_number": 8,
+      "timestamp": "2026-08-28T04:53:25.069418+00:00"
+    },
+    {
+      "actor_party_id": "6fdf0d3d-d64a-497e-abb8-8015fd2c480f",
+      "entry_hash": "d4cd5e7fba522c464b8eda6342fec5b4ea079bd469b06af7b5a461e1a184cf31",
+      "event_data": {
+        "displayed_text_hash": "50ca4f9e51a4f5ebc3d5c29c430bc77824ec51a2df8a0f7adfd3aea97d1f73a4",
+        "expected_duration_seconds": 66.8,
+        "party_id": "6fdf0d3d-d64a-497e-abb8-8015fd2c480f",
+        "session_token": "a6d6ee27-4cba-4291-863d-47e910b351dc"
+      },
+      "event_type": "reading_started",
+      "prev_hash": "680dfbe7213a6d2069dbb1349ee79c69b37d714a56168132e8e842d01ff3b10e",
+      "sequence_number": 9,
+      "timestamp": "2026-08-28T04:53:26.427496+00:00"
+    },
+    {
+      "actor_party_id": "6fdf0d3d-d64a-497e-abb8-8015fd2c480f",
+      "entry_hash": "1c86b978d306d10e5296dbbc0d946fd7feeb5d27ff96dfb7de7c98f6d2add105",
+      "event_data": {
+        "checkpoint": "10%",
+        "party_id": "6fdf0d3d-d64a-497e-abb8-8015fd2c480f",
+        "session_token": "a6d6ee27-4cba-4291-863d-47e910b351dc"
+      },
+      "event_type": "reading_progress",
+      "prev_hash": "d4cd5e7fba522c464b8eda6342fec5b4ea079bd469b06af7b5a461e1a184cf31",
+      "sequence_number": 10,
+      "timestamp": "2026-08-28T04:53:35.364101+00:00"
+    },
+    {
+      "actor_party_id": "6fdf0d3d-d64a-497e-abb8-8015fd2c480f",
+      "entry_hash": "c3872c24f642d6c37881c9bf6ac6eab225529d02b452010f33bdfcceb2ff837b",
+      "event_data": {
+        "checkpoint": "20%",
+        "party_id": "6fdf0d3d-d64a-497e-abb8-8015fd2c480f",
+        "session_token": "a6d6ee27-4cba-4291-863d-47e910b351dc"
+      },
+      "event_type": "reading_progress",
+      "prev_hash": "1c86b978d306d10e5296dbbc0d946fd7feeb5d27ff96dfb7de7c98f6d2add105",
+      "sequence_number": 11,
+      "timestamp": "2026-08-28T04:53:41.968111+00:00"
+    },
+    {
+      "actor_party_id": "6fdf0d3d-d64a-497e-abb8-8015fd2c480f",
+      "entry_hash": "01409ca7b6ff64c48dc31116a0f7d73ccb1c1bb65b863270e0d8b8c21e920e4b",
+      "event_data": {
+        "checkpoint": "30%",
+        "party_id": "6fdf0d3d-d64a-497e-abb8-8015fd2c480f",
+        "session_token": "a6d6ee27-4cba-4291-863d-47e910b351dc"
+      },
+      "event_type": "reading_progress",
+      "prev_hash": "c3872c24f642d6c37881c9bf6ac6eab225529d02b452010f33bdfcceb2ff837b",
+      "sequence_number": 12,
+      "timestamp": "2026-08-28T04:53:48.761542+00:00"
+    },
+    {
+      "actor_party_id": "6fdf0d3d-d64a-497e-abb8-8015fd2c480f",
+      "entry_hash": "3f49c56ea655cc08d11e4a4a45fb91ad6f6b426b834d6a37d4c248353c06332a",
+      "event_data": {
+        "checkpoint": "40%",
+        "party_id": "6fdf0d3d-d64a-497e-abb8-8015fd2c480f",
+        "session_token": "a6d6ee27-4cba-4291-863d-47e910b351dc"
+      },
+      "event_type": "reading_progress",
+      "prev_hash": "01409ca7b6ff64c48dc31116a0f7d73ccb1c1bb65b863270e0d8b8c21e920e4b",
+      "sequence_number": 13,
+      "timestamp": "2026-08-28T04:53:55.369735+00:00"
+    },
+    {
+      "actor_party_id": "6fdf0d3d-d64a-497e-abb8-8015fd2c480f",
+      "entry_hash": "254f088b336627b8cd3f0822da79620b58abeb56db3d5c65881c68c1cd73f46d",
+      "event_data": {
+        "checkpoint": "50%",
+        "party_id": "6fdf0d3d-d64a-497e-abb8-8015fd2c480f",
+        "session_token": "a6d6ee27-4cba-4291-863d-47e910b351dc"
+      },
+      "event_type": "reading_progress",
+      "prev_hash": "3f49c56ea655cc08d11e4a4a45fb91ad6f6b426b834d6a37d4c248353c06332a",
+      "sequence_number": 14,
+      "timestamp": "2026-08-28T04:54:01.956166+00:00"
+    },
+    {
+      "actor_party_id": "704e8e28-5d34-48d2-9892-74ab3b714bed",
+      "entry_hash": "89df266ae3e4f3f9d0ef5ff92c8cf27c310037de71dded2c880bbc01b4fa05de",
+      "event_data": {
+        "credential_aaguid": "ea9b8d66-4d01-1d21-3ce4-b6b48cb575d4",
+        "party_id": "704e8e28-5d34-48d2-9892-74ab3b714bed",
+        "party_role": "otsu",
+        "transports": []
+      },
+      "event_type": "passkey_registered",
+      "prev_hash": "254f088b336627b8cd3f0822da79620b58abeb56db3d5c65881c68c1cd73f46d",
+      "sequence_number": 15,
+      "timestamp": "2026-08-28T04:54:04.050072+00:00"
+    },
+    {
+      "actor_party_id": "704e8e28-5d34-48d2-9892-74ab3b714bed",
+      "entry_hash": "0b4dd1c8139eb5342c1601bc1e16507b28f7f5f65c00893f9fc94961e74817a6",
+      "event_data": {
+        "displayed_text_hash": "50ca4f9e51a4f5ebc3d5c29c430bc77824ec51a2df8a0f7adfd3aea97d1f73a4",
+        "expected_duration_seconds": 66.8,
+        "party_id": "704e8e28-5d34-48d2-9892-74ab3b714bed",
+        "session_token": "3579fc94-0c73-4a2d-bbfb-8685fefb0018"
+      },
+      "event_type": "reading_started",
+      "prev_hash": "89df266ae3e4f3f9d0ef5ff92c8cf27c310037de71dded2c880bbc01b4fa05de",
+      "sequence_number": 16,
+      "timestamp": "2026-08-28T04:54:05.334054+00:00"
+    },
+    {
+      "actor_party_id": "6fdf0d3d-d64a-497e-abb8-8015fd2c480f",
+      "entry_hash": "fc7f7565b4a6d1a3f203330c1363d0bbdff2563abc209cb45fcba4e7c52bc44d",
+      "event_data": {
+        "checkpoint": "60%",
+        "party_id": "6fdf0d3d-d64a-497e-abb8-8015fd2c480f",
+        "session_token": "a6d6ee27-4cba-4291-863d-47e910b351dc"
+      },
+      "event_type": "reading_progress",
+      "prev_hash": "0b4dd1c8139eb5342c1601bc1e16507b28f7f5f65c00893f9fc94961e74817a6",
+      "sequence_number": 17,
+      "timestamp": "2026-08-28T04:54:08.766190+00:00"
+    },
+    {
+      "actor_party_id": "704e8e28-5d34-48d2-9892-74ab3b714bed",
+      "entry_hash": "a5e2cd71daed879548ddb7d3b4985a3826c13a29730ddf8f07bdb272183e1057",
+      "event_data": {
+        "checkpoint": "10%",
+        "party_id": "704e8e28-5d34-48d2-9892-74ab3b714bed",
+        "session_token": "3579fc94-0c73-4a2d-bbfb-8685fefb0018"
+      },
+      "event_type": "reading_progress",
+      "prev_hash": "fc7f7565b4a6d1a3f203330c1363d0bbdff2563abc209cb45fcba4e7c52bc44d",
+      "sequence_number": 18,
+      "timestamp": "2026-08-28T04:54:14.077076+00:00"
+    },
+    {
+      "actor_party_id": "6fdf0d3d-d64a-497e-abb8-8015fd2c480f",
+      "entry_hash": "9a80d2e428409a94ee8d117c7d5c8fc26aee268a6c9ed146388c2613da37f8a2",
+      "event_data": {
+        "checkpoint": "70%",
+        "party_id": "6fdf0d3d-d64a-497e-abb8-8015fd2c480f",
+        "session_token": "a6d6ee27-4cba-4291-863d-47e910b351dc"
+      },
+      "event_type": "reading_progress",
+      "prev_hash": "a5e2cd71daed879548ddb7d3b4985a3826c13a29730ddf8f07bdb272183e1057",
+      "sequence_number": 19,
+      "timestamp": "2026-08-28T04:54:15.396826+00:00"
+    },
+    {
+      "actor_party_id": "704e8e28-5d34-48d2-9892-74ab3b714bed",
+      "entry_hash": "3c40c09f4f2049ae5c06487f4e25f9e67282609787d1ed591a9603e5aa65a41a",
+      "event_data": {
+        "checkpoint": "20%",
+        "party_id": "704e8e28-5d34-48d2-9892-74ab3b714bed",
+        "session_token": "3579fc94-0c73-4a2d-bbfb-8685fefb0018"
+      },
+      "event_type": "reading_progress",
+      "prev_hash": "9a80d2e428409a94ee8d117c7d5c8fc26aee268a6c9ed146388c2613da37f8a2",
+      "sequence_number": 20,
+      "timestamp": "2026-08-28T04:54:20.690188+00:00"
+    },
+    {
+      "actor_party_id": "6fdf0d3d-d64a-497e-abb8-8015fd2c480f",
+      "entry_hash": "886c20ca85634012413af1aad8db53e96e078a4ee6a74d59babdb21d274e27a1",
+      "event_data": {
+        "checkpoint": "80%",
+        "party_id": "6fdf0d3d-d64a-497e-abb8-8015fd2c480f",
+        "session_token": "a6d6ee27-4cba-4291-863d-47e910b351dc"
+      },
+      "event_type": "reading_progress",
+      "prev_hash": "3c40c09f4f2049ae5c06487f4e25f9e67282609787d1ed591a9603e5aa65a41a",
+      "sequence_number": 21,
+      "timestamp": "2026-08-28T04:54:22.288640+00:00"
+    },
+    {
+      "actor_party_id": "704e8e28-5d34-48d2-9892-74ab3b714bed",
+      "entry_hash": "790165cb06b2e4f0827e2052d80e05803a128ab33c5909eb093c176adb6fd828",
+      "event_data": {
+        "checkpoint": "30%",
+        "party_id": "704e8e28-5d34-48d2-9892-74ab3b714bed",
+        "session_token": "3579fc94-0c73-4a2d-bbfb-8685fefb0018"
+      },
+      "event_type": "reading_progress",
+      "prev_hash": "886c20ca85634012413af1aad8db53e96e078a4ee6a74d59babdb21d274e27a1",
+      "sequence_number": 22,
+      "timestamp": "2026-08-28T04:54:27.493157+00:00"
+    },
+    {
+      "actor_party_id": "6fdf0d3d-d64a-497e-abb8-8015fd2c480f",
+      "entry_hash": "6be210ffc88d75f4bb77c4bbbc5b4b4cba213a1c96bc06d14afc5db43f6c7a59",
+      "event_data": {
+        "checkpoint": "90%",
+        "party_id": "6fdf0d3d-d64a-497e-abb8-8015fd2c480f",
+        "session_token": "a6d6ee27-4cba-4291-863d-47e910b351dc"
+      },
+      "event_type": "reading_progress",
+      "prev_hash": "790165cb06b2e4f0827e2052d80e05803a128ab33c5909eb093c176adb6fd828",
+      "sequence_number": 23,
+      "timestamp": "2026-08-28T04:54:28.771853+00:00"
+    },
+    {
+      "actor_party_id": "704e8e28-5d34-48d2-9892-74ab3b714bed",
+      "entry_hash": "9ab05109b6aa21e3b337b0830f47ef3f07fda5b232d6b3b6f026b292cc825983",
+      "event_data": {
+        "checkpoint": "40%",
+        "party_id": "704e8e28-5d34-48d2-9892-74ab3b714bed",
+        "session_token": "3579fc94-0c73-4a2d-bbfb-8685fefb0018"
+      },
+      "event_type": "reading_progress",
+      "prev_hash": "6be210ffc88d75f4bb77c4bbbc5b4b4cba213a1c96bc06d14afc5db43f6c7a59",
+      "sequence_number": 24,
+      "timestamp": "2026-08-28T04:54:34.064105+00:00"
+    },
+    {
+      "actor_party_id": "6fdf0d3d-d64a-497e-abb8-8015fd2c480f",
+      "entry_hash": "56f7cd6166dd0d406bfd9de4d17c5c5cc6914d40ab0a63c081d5ce7ddc305771",
+      "event_data": {
+        "checkpoint": "100%",
+        "party_id": "6fdf0d3d-d64a-497e-abb8-8015fd2c480f",
+        "session_token": "a6d6ee27-4cba-4291-863d-47e910b351dc"
+      },
+      "event_type": "reading_progress",
+      "prev_hash": "9ab05109b6aa21e3b337b0830f47ef3f07fda5b232d6b3b6f026b292cc825983",
+      "sequence_number": 25,
+      "timestamp": "2026-08-28T04:54:35.374504+00:00"
+    },
+    {
+      "actor_party_id": "704e8e28-5d34-48d2-9892-74ab3b714bed",
+      "entry_hash": "9bc939554cd0cb2543c9472d73ea004126312e3cbbe16bf598765efe746e87fe",
+      "event_data": {
+        "checkpoint": "50%",
+        "party_id": "704e8e28-5d34-48d2-9892-74ab3b714bed",
+        "session_token": "3579fc94-0c73-4a2d-bbfb-8685fefb0018"
+      },
+      "event_type": "reading_progress",
+      "prev_hash": "56f7cd6166dd0d406bfd9de4d17c5c5cc6914d40ab0a63c081d5ce7ddc305771",
+      "sequence_number": 26,
+      "timestamp": "2026-08-28T04:54:40.673466+00:00"
+    },
+    {
+      "actor_party_id": "6fdf0d3d-d64a-497e-abb8-8015fd2c480f",
+      "entry_hash": "999a43724ded441fefc90ce78e97b2f981123c3c5335404eccb1d1843ff47b23",
+      "event_data": {
+        "displayed_text_hash": "50ca4f9e51a4f5ebc3d5c29c430bc77824ec51a2df8a0f7adfd3aea97d1f73a4",
+        "party_id": "6fdf0d3d-d64a-497e-abb8-8015fd2c480f",
+        "reading_duration_seconds": 77,
+        "session_token": "a6d6ee27-4cba-4291-863d-47e910b351dc"
+      },
+      "event_type": "reading_completed",
+      "prev_hash": "9bc939554cd0cb2543c9472d73ea004126312e3cbbe16bf598765efe746e87fe",
+      "sequence_number": 27,
+      "timestamp": "2026-08-28T04:54:43.572946+00:00"
+    },
+    {
+      "actor_party_id": "6fdf0d3d-d64a-497e-abb8-8015fd2c480f",
+      "entry_hash": "6648fe70983bc15e6d2d9e9e614bd66b9c69c0a0f4016674585e0d00e66b4a24",
+      "event_data": {
+        "decision": "agreed",
+        "party_id": "6fdf0d3d-d64a-497e-abb8-8015fd2c480f",
+        "server_timestamp": "2026-08-28T04:54:43.566276+00:00",
+        "verified_passkey_credential_id": "AfNmtq1IJkMRFUaIMLhp-BY_nuEN9c_fvQQ2es_9vl-DVhE2E-KWQZSJfxWiGVENHsXo4DXqo3Zvx2-2AOnBMJg"
+      },
+      "event_type": "party_agreed",
+      "prev_hash": "999a43724ded441fefc90ce78e97b2f981123c3c5335404eccb1d1843ff47b23",
+      "sequence_number": 28,
+      "timestamp": "2026-08-28T04:54:43.577880+00:00"
+    },
+    {
+      "actor_party_id": "704e8e28-5d34-48d2-9892-74ab3b714bed",
+      "entry_hash": "d2a0b2e8d1d42417e52cbcad426e24951e611c1c6bab68e4b6036195e8f6ded5",
+      "event_data": {
+        "checkpoint": "60%",
+        "party_id": "704e8e28-5d34-48d2-9892-74ab3b714bed",
+        "session_token": "3579fc94-0c73-4a2d-bbfb-8685fefb0018"
+      },
+      "event_type": "reading_progress",
+      "prev_hash": "6648fe70983bc15e6d2d9e9e614bd66b9c69c0a0f4016674585e0d00e66b4a24",
+      "sequence_number": 29,
+      "timestamp": "2026-08-28T04:54:47.464131+00:00"
+    },
+    {
+      "actor_party_id": "704e8e28-5d34-48d2-9892-74ab3b714bed",
+      "entry_hash": "c629a5a1d19f1c1a769b2574c00fd12649ba80ece431621a909d0b06e3be0fe8",
+      "event_data": {
+        "checkpoint": "70%",
+        "party_id": "704e8e28-5d34-48d2-9892-74ab3b714bed",
+        "session_token": "3579fc94-0c73-4a2d-bbfb-8685fefb0018"
+      },
+      "event_type": "reading_progress",
+      "prev_hash": "d2a0b2e8d1d42417e52cbcad426e24951e611c1c6bab68e4b6036195e8f6ded5",
+      "sequence_number": 30,
+      "timestamp": "2026-08-28T04:54:54.115070+00:00"
+    },
+    {
+      "actor_party_id": "704e8e28-5d34-48d2-9892-74ab3b714bed",
+      "entry_hash": "5ca1a2df39659a57fbbdc5194d3824c78f6f6ed0deea545c10659646765551dd",
+      "event_data": {
+        "checkpoint": "80%",
+        "party_id": "704e8e28-5d34-48d2-9892-74ab3b714bed",
+        "session_token": "3579fc94-0c73-4a2d-bbfb-8685fefb0018"
+      },
+      "event_type": "reading_progress",
+      "prev_hash": "c629a5a1d19f1c1a769b2574c00fd12649ba80ece431621a909d0b06e3be0fe8",
+      "sequence_number": 31,
+      "timestamp": "2026-08-28T04:55:01.017442+00:00"
+    },
+    {
+      "actor_party_id": "704e8e28-5d34-48d2-9892-74ab3b714bed",
+      "entry_hash": "8200e5338ee52fecf13bc8ea781265f57396025de0da80181a0855429dca6c52",
+      "event_data": {
+        "checkpoint": "90%",
+        "party_id": "704e8e28-5d34-48d2-9892-74ab3b714bed",
+        "session_token": "3579fc94-0c73-4a2d-bbfb-8685fefb0018"
+      },
+      "event_type": "reading_progress",
+      "prev_hash": "5ca1a2df39659a57fbbdc5194d3824c78f6f6ed0deea545c10659646765551dd",
+      "sequence_number": 32,
+      "timestamp": "2026-08-28T04:55:07.472501+00:00"
+    },
+    {
+      "actor_party_id": "704e8e28-5d34-48d2-9892-74ab3b714bed",
+      "entry_hash": "eece3501c99ef6061513efe5eb7c805584f6ebceb3fe973c0e07109531db1fe5",
+      "event_data": {
+        "checkpoint": "100%",
+        "party_id": "704e8e28-5d34-48d2-9892-74ab3b714bed",
+        "session_token": "3579fc94-0c73-4a2d-bbfb-8685fefb0018"
+      },
+      "event_type": "reading_progress",
+      "prev_hash": "8200e5338ee52fecf13bc8ea781265f57396025de0da80181a0855429dca6c52",
+      "sequence_number": 33,
+      "timestamp": "2026-08-28T04:55:14.056984+00:00"
+    },
+    {
+      "actor_party_id": "704e8e28-5d34-48d2-9892-74ab3b714bed",
+      "entry_hash": "9024be033a3a2a1d6542e3b7341224ae538c64caa264548c3011f70441e3ed2d",
+      "event_data": {
+        "displayed_text_hash": "50ca4f9e51a4f5ebc3d5c29c430bc77824ec51a2df8a0f7adfd3aea97d1f73a4",
+        "party_id": "704e8e28-5d34-48d2-9892-74ab3b714bed",
+        "reading_duration_seconds": 75,
+        "session_token": "3579fc94-0c73-4a2d-bbfb-8685fefb0018"
+      },
+      "event_type": "reading_completed",
+      "prev_hash": "eece3501c99ef6061513efe5eb7c805584f6ebceb3fe973c0e07109531db1fe5",
+      "sequence_number": 34,
+      "timestamp": "2026-08-28T04:55:20.559806+00:00"
+    },
+    {
+      "actor_party_id": "704e8e28-5d34-48d2-9892-74ab3b714bed",
+      "entry_hash": "44c1573138b7435f3f1b24a9635e8689b75a34679ef9b2836c1b26f69a28edb0",
+      "event_data": {
+        "decision": "agreed",
+        "party_id": "704e8e28-5d34-48d2-9892-74ab3b714bed",
+        "server_timestamp": "2026-08-28T04:55:20.551463+00:00",
+        "verified_passkey_credential_id": "6QL6XYhM9fnfkwZXzWgKUg"
+      },
+      "event_type": "party_agreed",
+      "prev_hash": "9024be033a3a2a1d6542e3b7341224ae538c64caa264548c3011f70441e3ed2d",
+      "sequence_number": 35,
+      "timestamp": "2026-08-28T04:55:20.564668+00:00"
+    },
+    {
+      "actor_party_id": null,
+      "entry_hash": "524d848acbae06786b9410adf6b43b45783ed4949f7aebc9b035575f6e2a109b",
+      "event_data": {
+        "completed_at": "2026-08-28T04:55:20.568840+00:00",
+        "party_ids": [
+          "6fdf0d3d-d64a-497e-abb8-8015fd2c480f",
+          "704e8e28-5d34-48d2-9892-74ab3b714bed"
+        ]
+      },
+      "event_type": "contract_completed",
+      "prev_hash": "44c1573138b7435f3f1b24a9635e8689b75a34679ef9b2836c1b26f69a28edb0",
+      "sequence_number": 36,
+      "timestamp": "2026-08-28T04:55:20.577701+00:00"
+    }
+  ],
+  "completed_at": "2026-08-28T04:55:20.568840+00:00",
+  "contract_id": "095d6878-6bb8-4986-89c4-2095a2144136",
+  "created_at": "2026-08-28T04:51:50.241115+00:00",
+  "full_text_hash": "50ca4f9e51a4f5ebc3d5c29c430bc77824ec51a2df8a0f7adfd3aea97d1f73a4",
+  "parties": [
+    {
+      "decision": "agreed",
+      "decision_at": "2026-08-28T04:54:43.566276+00:00",
+      "email": "coredaa5656@gmail.com",
+      "id": "6fdf0d3d-d64a-497e-abb8-8015fd2c480f",
+      "name": "山田太郎",
+      "role": "kou",
+      "role_label": "甲"
+    },
+    {
+      "decision": "agreed",
+      "decision_at": "2026-08-28T04:55:20.551463+00:00",
+      "email": "360do.inc@gmail.com",
+      "id": "704e8e28-5d34-48d2-9892-74ab3b714bed",
+      "name": "山田花子",
+      "role": "otsu",
+      "role_label": "乙"
+    }
+  ],
+  "product_code": "divorce",
+  "product_name": "離婚協議書",
+  "schema_version": 1,
+  "status": "completed"
+}
