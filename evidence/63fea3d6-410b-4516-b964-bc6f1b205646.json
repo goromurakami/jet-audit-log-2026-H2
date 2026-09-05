@@ -1,0 +1,303 @@
+{
+  "audit_log": [
+    {
+      "actor_party_id": null,
+      "entry_hash": "81c40f7035a71a5e47386caa8f67ad3f07a498493175fa8a9d26b9c43e348dec",
+      "event_data": {
+        "product_code": "nda"
+      },
+      "event_type": "contract_created",
+      "prev_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "sequence_number": 1,
+      "timestamp": "2026-09-05T02:11:59.951555+00:00"
+    },
+    {
+      "actor_party_id": null,
+      "entry_hash": "88dbbee866db65f4a40e0fecc72aaa3dc6608a8a4616c9a753ad2c90fbc3c89a",
+      "event_data": {
+        "ai_model_used": "gemini-2.5-flash",
+        "input_keys": [
+          "employer_name",
+          "employee_name",
+          "duration_years",
+          "confidential_scope",
+          "confidential_marking",
+          "confidential_categories"
+        ]
+      },
+      "event_type": "draft_generated",
+      "prev_hash": "81c40f7035a71a5e47386caa8f67ad3f07a498493175fa8a9d26b9c43e348dec",
+      "sequence_number": 2,
+      "timestamp": "2026-09-05T02:12:30.246455+00:00"
+    },
+    {
+      "actor_party_id": null,
+      "entry_hash": "2d79bb85917c3fd6803a5551801dc6ba8bde6fa5b949b26146adc31ebe85e42a",
+      "event_data": {
+        "full_text_hash": "6746ca0472fb971e8753366af717c9b0d1907502da4e5fab017d014c80eae50c"
+      },
+      "event_type": "text_finalized",
+      "prev_hash": "88dbbee866db65f4a40e0fecc72aaa3dc6608a8a4616c9a753ad2c90fbc3c89a",
+      "sequence_number": 3,
+      "timestamp": "2026-09-05T02:12:55.860888+00:00"
+    },
+    {
+      "actor_party_id": null,
+      "entry_hash": "6a06e6eac35231728f4bf8c3d94f9ec23728a28a4075fa7bf75ffd96dc543c6b",
+      "event_data": {
+        "name": "山口一郎",
+        "role": "otsu",
+        "role_label": ""
+      },
+      "event_type": "party_added",
+      "prev_hash": "2d79bb85917c3fd6803a5551801dc6ba8bde6fa5b949b26146adc31ebe85e42a",
+      "sequence_number": 4,
+      "timestamp": "2026-09-05T02:13:03.586422+00:00"
+    },
+    {
+      "actor_party_id": "cb9e3369-61cb-415b-88db-573f0c3f8e81",
+      "entry_hash": "99e95f399005503587856ab7a0c7236fdaa11cc325b7f1f0eae3f609c0e98fd9",
+      "event_data": {
+        "email": "coredaa5656@gmail.com",
+        "party_id": "cb9e3369-61cb-415b-88db-573f0c3f8e81"
+      },
+      "event_type": "invite_sent",
+      "prev_hash": "6a06e6eac35231728f4bf8c3d94f9ec23728a28a4075fa7bf75ffd96dc543c6b",
+      "sequence_number": 5,
+      "timestamp": "2026-09-05T02:13:05.920996+00:00"
+    },
+    {
+      "actor_party_id": "cb9e3369-61cb-415b-88db-573f0c3f8e81",
+      "entry_hash": "71dd67327a60b3161a53989b4aa0450a592958580faa724ce37086e804ceb1e0",
+      "event_data": {
+        "credential_aaguid": "fbfc3007-154e-4ecc-8c0b-6e020557d7bd",
+        "party_id": "cb9e3369-61cb-415b-88db-573f0c3f8e81",
+        "party_role": "otsu",
+        "transports": []
+      },
+      "event_type": "passkey_registered",
+      "prev_hash": "99e95f399005503587856ab7a0c7236fdaa11cc325b7f1f0eae3f609c0e98fd9",
+      "sequence_number": 6,
+      "timestamp": "2026-09-05T02:13:21.711272+00:00"
+    },
+    {
+      "actor_party_id": "cb9e3369-61cb-415b-88db-573f0c3f8e81",
+      "entry_hash": "aa0a599fe7162cc3cc4d1cc23fa60c9a370d3716ec4212545fa46514fc5ddd8d",
+      "event_data": {
+        "displayed_text_hash": "6746ca0472fb971e8753366af717c9b0d1907502da4e5fab017d014c80eae50c",
+        "expected_duration_seconds": 111.33,
+        "party_id": "cb9e3369-61cb-415b-88db-573f0c3f8e81",
+        "session_token": "cf7773cb-0e59-4781-bdd7-293158cacb01"
+      },
+      "event_type": "reading_started",
+      "prev_hash": "71dd67327a60b3161a53989b4aa0450a592958580faa724ce37086e804ceb1e0",
+      "sequence_number": 7,
+      "timestamp": "2026-09-05T02:13:23.056337+00:00"
+    },
+    {
+      "actor_party_id": "cb9e3369-61cb-415b-88db-573f0c3f8e81",
+      "entry_hash": "a23fa9c03e8b9740a3490d8f670ece66a83365529b154f5976c4e1f1e03a07ad",
+      "event_data": {
+        "displayed_text_hash": "6746ca0472fb971e8753366af717c9b0d1907502da4e5fab017d014c80eae50c",
+        "expected_duration_seconds": 111.33,
+        "party_id": "cb9e3369-61cb-415b-88db-573f0c3f8e81",
+        "session_token": "cb38ac84-c7ce-48ed-8d47-0ba6cc3ae6e5"
+      },
+      "event_type": "reading_started",
+      "prev_hash": "aa0a599fe7162cc3cc4d1cc23fa60c9a370d3716ec4212545fa46514fc5ddd8d",
+      "sequence_number": 8,
+      "timestamp": "2026-09-05T02:13:28.308656+00:00"
+    },
+    {
+      "actor_party_id": "cb9e3369-61cb-415b-88db-573f0c3f8e81",
+      "entry_hash": "98756a84503f5f0f66e8fb261ceb57f5c33d52208bd8132773423bcf2577294d",
+      "event_data": {
+        "checkpoint": "10%",
+        "party_id": "cb9e3369-61cb-415b-88db-573f0c3f8e81",
+        "session_token": "cf7773cb-0e59-4781-bdd7-293158cacb01"
+      },
+      "event_type": "reading_progress",
+      "prev_hash": "a23fa9c03e8b9740a3490d8f670ece66a83365529b154f5976c4e1f1e03a07ad",
+      "sequence_number": 9,
+      "timestamp": "2026-09-05T02:13:36.423457+00:00"
+    },
+    {
+      "actor_party_id": "cb9e3369-61cb-415b-88db-573f0c3f8e81",
+      "entry_hash": "21de0ea88dbf6169f25abe3cec344e836570fe388fe6f9c47a778b7d67f2d17a",
+      "event_data": {
+        "checkpoint": "20%",
+        "party_id": "cb9e3369-61cb-415b-88db-573f0c3f8e81",
+        "session_token": "cf7773cb-0e59-4781-bdd7-293158cacb01"
+      },
+      "event_type": "reading_progress",
+      "prev_hash": "98756a84503f5f0f66e8fb261ceb57f5c33d52208bd8132773423bcf2577294d",
+      "sequence_number": 10,
+      "timestamp": "2026-09-05T02:13:47.656351+00:00"
+    },
+    {
+      "actor_party_id": "cb9e3369-61cb-415b-88db-573f0c3f8e81",
+      "entry_hash": "476fba6eda09f91dbd92bd00ee085eb499943e84da68cc72b9cef5e539c95a08",
+      "event_data": {
+        "checkpoint": "30%",
+        "party_id": "cb9e3369-61cb-415b-88db-573f0c3f8e81",
+        "session_token": "cf7773cb-0e59-4781-bdd7-293158cacb01"
+      },
+      "event_type": "reading_progress",
+      "prev_hash": "21de0ea88dbf6169f25abe3cec344e836570fe388fe6f9c47a778b7d67f2d17a",
+      "sequence_number": 11,
+      "timestamp": "2026-09-05T02:13:58.578145+00:00"
+    },
+    {
+      "actor_party_id": "cb9e3369-61cb-415b-88db-573f0c3f8e81",
+      "entry_hash": "d4c57c7d21e06bd621e3d3363b05633681e4978274e09848a441e92de7c661a7",
+      "event_data": {
+        "checkpoint": "40%",
+        "party_id": "cb9e3369-61cb-415b-88db-573f0c3f8e81",
+        "session_token": "cf7773cb-0e59-4781-bdd7-293158cacb01"
+      },
+      "event_type": "reading_progress",
+      "prev_hash": "476fba6eda09f91dbd92bd00ee085eb499943e84da68cc72b9cef5e539c95a08",
+      "sequence_number": 12,
+      "timestamp": "2026-09-05T02:14:09.786420+00:00"
+    },
+    {
+      "actor_party_id": "cb9e3369-61cb-415b-88db-573f0c3f8e81",
+      "entry_hash": "de84aabe0f019e71545b744edff4a550aebb6f150a11039126fe1bc8ad524778",
+      "event_data": {
+        "checkpoint": "50%",
+        "party_id": "cb9e3369-61cb-415b-88db-573f0c3f8e81",
+        "session_token": "cf7773cb-0e59-4781-bdd7-293158cacb01"
+      },
+      "event_type": "reading_progress",
+      "prev_hash": "d4c57c7d21e06bd621e3d3363b05633681e4978274e09848a441e92de7c661a7",
+      "sequence_number": 13,
+      "timestamp": "2026-09-05T02:14:21.014068+00:00"
+    },
+    {
+      "actor_party_id": "cb9e3369-61cb-415b-88db-573f0c3f8e81",
+      "entry_hash": "c755f37d0edba9368d757127970500ef84bae83e8e00c8e1432004d40b3d4ffd",
+      "event_data": {
+        "checkpoint": "60%",
+        "party_id": "cb9e3369-61cb-415b-88db-573f0c3f8e81",
+        "session_token": "cf7773cb-0e59-4781-bdd7-293158cacb01"
+      },
+      "event_type": "reading_progress",
+      "prev_hash": "de84aabe0f019e71545b744edff4a550aebb6f150a11039126fe1bc8ad524778",
+      "sequence_number": 14,
+      "timestamp": "2026-09-05T02:14:32.029763+00:00"
+    },
+    {
+      "actor_party_id": "cb9e3369-61cb-415b-88db-573f0c3f8e81",
+      "entry_hash": "a1398c5eaae86fd4dd0e296849710ab6d35c7020d787f76b85fe3c0aa3f16c93",
+      "event_data": {
+        "checkpoint": "70%",
+        "party_id": "cb9e3369-61cb-415b-88db-573f0c3f8e81",
+        "session_token": "cf7773cb-0e59-4781-bdd7-293158cacb01"
+      },
+      "event_type": "reading_progress",
+      "prev_hash": "c755f37d0edba9368d757127970500ef84bae83e8e00c8e1432004d40b3d4ffd",
+      "sequence_number": 15,
+      "timestamp": "2026-09-05T02:14:43.193815+00:00"
+    },
+    {
+      "actor_party_id": "cb9e3369-61cb-415b-88db-573f0c3f8e81",
+      "entry_hash": "69413a6943e8b2746ebbcd08a43b7755cd4ce65d7658fe1cf42b023f1acf2657",
+      "event_data": {
+        "checkpoint": "80%",
+        "party_id": "cb9e3369-61cb-415b-88db-573f0c3f8e81",
+        "session_token": "cf7773cb-0e59-4781-bdd7-293158cacb01"
+      },
+      "event_type": "reading_progress",
+      "prev_hash": "a1398c5eaae86fd4dd0e296849710ab6d35c7020d787f76b85fe3c0aa3f16c93",
+      "sequence_number": 16,
+      "timestamp": "2026-09-05T02:14:54.414019+00:00"
+    },
+    {
+      "actor_party_id": "cb9e3369-61cb-415b-88db-573f0c3f8e81",
+      "entry_hash": "33294e0b4e753be937eb8f571407e473f7595dda94311ebfdf0a661507565e1b",
+      "event_data": {
+        "checkpoint": "90%",
+        "party_id": "cb9e3369-61cb-415b-88db-573f0c3f8e81",
+        "session_token": "cf7773cb-0e59-4781-bdd7-293158cacb01"
+      },
+      "event_type": "reading_progress",
+      "prev_hash": "69413a6943e8b2746ebbcd08a43b7755cd4ce65d7658fe1cf42b023f1acf2657",
+      "sequence_number": 17,
+      "timestamp": "2026-09-05T02:15:05.374483+00:00"
+    },
+    {
+      "actor_party_id": "cb9e3369-61cb-415b-88db-573f0c3f8e81",
+      "entry_hash": "96ac64b8075b6840d29e5044200034f9ba5efa10fd71ef33871b175bee22d94a",
+      "event_data": {
+        "checkpoint": "100%",
+        "party_id": "cb9e3369-61cb-415b-88db-573f0c3f8e81",
+        "session_token": "cf7773cb-0e59-4781-bdd7-293158cacb01"
+      },
+      "event_type": "reading_progress",
+      "prev_hash": "33294e0b4e753be937eb8f571407e473f7595dda94311ebfdf0a661507565e1b",
+      "sequence_number": 18,
+      "timestamp": "2026-09-05T02:15:16.671166+00:00"
+    },
+    {
+      "actor_party_id": "cb9e3369-61cb-415b-88db-573f0c3f8e81",
+      "entry_hash": "cd47783e1e339ef446ead0799262f0e233ef82fd35ad529dd0daf8e8f25515ed",
+      "event_data": {
+        "displayed_text_hash": "6746ca0472fb971e8753366af717c9b0d1907502da4e5fab017d014c80eae50c",
+        "party_id": "cb9e3369-61cb-415b-88db-573f0c3f8e81",
+        "reading_duration_seconds": 122,
+        "session_token": "cf7773cb-0e59-4781-bdd7-293158cacb01"
+      },
+      "event_type": "reading_completed",
+      "prev_hash": "96ac64b8075b6840d29e5044200034f9ba5efa10fd71ef33871b175bee22d94a",
+      "sequence_number": 19,
+      "timestamp": "2026-09-05T02:15:26.044761+00:00"
+    },
+    {
+      "actor_party_id": "cb9e3369-61cb-415b-88db-573f0c3f8e81",
+      "entry_hash": "389a7d4ea514a12832a1acf92a8097f3327141c70764d60368f60d6e532ffedb",
+      "event_data": {
+        "decision": "agreed",
+        "party_id": "cb9e3369-61cb-415b-88db-573f0c3f8e81",
+        "server_timestamp": "2026-09-05T02:15:26.039078+00:00",
+        "verified_passkey_credential_id": "SdvkvQQ19EJzpQCBkq7qEfoBSTI"
+      },
+      "event_type": "party_agreed",
+      "prev_hash": "cd47783e1e339ef446ead0799262f0e233ef82fd35ad529dd0daf8e8f25515ed",
+      "sequence_number": 20,
+      "timestamp": "2026-09-05T02:15:26.048751+00:00"
+    },
+    {
+      "actor_party_id": null,
+      "entry_hash": "c3067f579a7146af50df3d0bb5ee81c7a465a336ba23ebaeb0255491c3d56e5d",
+      "event_data": {
+        "completed_at": "2026-09-05T02:15:26.052130+00:00",
+        "party_ids": [
+          "cb9e3369-61cb-415b-88db-573f0c3f8e81"
+        ]
+      },
+      "event_type": "contract_completed",
+      "prev_hash": "389a7d4ea514a12832a1acf92a8097f3327141c70764d60368f60d6e532ffedb",
+      "sequence_number": 21,
+      "timestamp": "2026-09-05T02:15:26.055137+00:00"
+    }
+  ],
+  "completed_at": "2026-09-05T02:15:26.052130+00:00",
+  "contract_id": "63fea3d6-410b-4516-b964-bc6f1b205646",
+  "created_at": "2026-09-05T02:11:59.941741+00:00",
+  "full_text_hash": "6746ca0472fb971e8753366af717c9b0d1907502da4e5fab017d014c80eae50c",
+  "parties": [
+    {
+      "decision": "agreed",
+      "decision_at": "2026-09-05T02:15:26.039078+00:00",
+      "email": "coredaa5656@gmail.com",
+      "id": "cb9e3369-61cb-415b-88db-573f0c3f8e81",
+      "name": "山口一郎",
+      "role": "otsu",
+      "role_label": "乙"
+    }
+  ],
+  "product_code": "nda",
+  "product_name": "秘密保持誓約書",
+  "schema_version": 1,
+  "status": "completed"
+}
