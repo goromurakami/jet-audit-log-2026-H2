@@ -1,0 +1,303 @@
+{
+  "audit_log": [
+    {
+      "actor_party_id": null,
+      "entry_hash": "87b99ae2711c2da9fb9390cd96869ece75fd13bba8cf26a81cc05700ea880483",
+      "event_data": {
+        "product_code": "engagement"
+      },
+      "event_type": "contract_created",
+      "prev_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "sequence_number": 1,
+      "timestamp": "2026-09-05T02:38:42.699069+00:00"
+    },
+    {
+      "actor_party_id": null,
+      "entry_hash": "9a02c87e75d7afb8913a9dd87036b8ffec954fccccbd0233ef90aa583fcb3a62",
+      "event_data": {
+        "ai_model_used": "gemini-2.5-flash",
+        "input_keys": [
+          "party_a_name",
+          "party_a_birthdate",
+          "party_b_name",
+          "party_b_birthdate",
+          "existing_marriage_status",
+          "engagement_date",
+          "wedding_date"
+        ]
+      },
+      "event_type": "draft_generated",
+      "prev_hash": "87b99ae2711c2da9fb9390cd96869ece75fd13bba8cf26a81cc05700ea880483",
+      "sequence_number": 2,
+      "timestamp": "2026-09-05T02:39:00.530750+00:00"
+    },
+    {
+      "actor_party_id": null,
+      "entry_hash": "e250386d92c00bb5204ce6c581d0be1b5da0b74e92a3f09ce96b90fba11e440d",
+      "event_data": {
+        "full_text_hash": "ed3f3380e36684b91cff5d296b4f929150d60713d13cd4c8c50c34fab61a88d8"
+      },
+      "event_type": "text_finalized",
+      "prev_hash": "9a02c87e75d7afb8913a9dd87036b8ffec954fccccbd0233ef90aa583fcb3a62",
+      "sequence_number": 3,
+      "timestamp": "2026-09-05T02:39:42.193993+00:00"
+    },
+    {
+      "actor_party_id": null,
+      "entry_hash": "c015581137d3542632f372e9fd7338d11ad7382f5d520a9622981d6fec52e202",
+      "event_data": {
+        "name": "仁山金造",
+        "role": "kou",
+        "role_label": ""
+      },
+      "event_type": "party_added",
+      "prev_hash": "e250386d92c00bb5204ce6c581d0be1b5da0b74e92a3f09ce96b90fba11e440d",
+      "sequence_number": 4,
+      "timestamp": "2026-09-05T02:40:07.653577+00:00"
+    },
+    {
+      "actor_party_id": "fdf54f28-a685-4148-8f4e-8471e65655bd",
+      "entry_hash": "ed0d98d48f35e9162a10da0166f3a4573afdaee726dd594ecde73461bf4f348c",
+      "event_data": {
+        "email": "coredaa5656@gmail.com",
+        "party_id": "fdf54f28-a685-4148-8f4e-8471e65655bd"
+      },
+      "event_type": "invite_sent",
+      "prev_hash": "c015581137d3542632f372e9fd7338d11ad7382f5d520a9622981d6fec52e202",
+      "sequence_number": 5,
+      "timestamp": "2026-09-05T02:40:10.085859+00:00"
+    },
+    {
+      "actor_party_id": null,
+      "entry_hash": "7ad6dc775dc2a63d73872a816cb6aaa0bbe277c1da25a3f9e0bc8192e3357c1e",
+      "event_data": {
+        "name": "用山花子",
+        "role": "otsu",
+        "role_label": ""
+      },
+      "event_type": "party_added",
+      "prev_hash": "ed0d98d48f35e9162a10da0166f3a4573afdaee726dd594ecde73461bf4f348c",
+      "sequence_number": 6,
+      "timestamp": "2026-09-05T02:40:10.518892+00:00"
+    },
+    {
+      "actor_party_id": "c29012c9-a439-4bef-9a64-4b416efcf4fb",
+      "entry_hash": "938838d5a6f1c0e403fb86daead1bdf12406a4fc455cfb736f40118680bad6be",
+      "event_data": {
+        "email": "360do.inc@gmail.com",
+        "party_id": "c29012c9-a439-4bef-9a64-4b416efcf4fb"
+      },
+      "event_type": "invite_sent",
+      "prev_hash": "7ad6dc775dc2a63d73872a816cb6aaa0bbe277c1da25a3f9e0bc8192e3357c1e",
+      "sequence_number": 7,
+      "timestamp": "2026-09-05T02:40:12.731791+00:00"
+    },
+    {
+      "actor_party_id": "c29012c9-a439-4bef-9a64-4b416efcf4fb",
+      "entry_hash": "80ab09b2c79828dc54d2f217bf9da2052c2e4e6e4c8b9cde6cbb09bcecf52fef",
+      "event_data": {
+        "credential_aaguid": "ea9b8d66-4d01-1d21-3ce4-b6b48cb575d4",
+        "party_id": "c29012c9-a439-4bef-9a64-4b416efcf4fb",
+        "party_role": "otsu",
+        "transports": []
+      },
+      "event_type": "passkey_registered",
+      "prev_hash": "938838d5a6f1c0e403fb86daead1bdf12406a4fc455cfb736f40118680bad6be",
+      "sequence_number": 8,
+      "timestamp": "2026-09-05T02:40:40.807829+00:00"
+    },
+    {
+      "actor_party_id": "c29012c9-a439-4bef-9a64-4b416efcf4fb",
+      "entry_hash": "992b7ecbd8da40d487ee74b1a0a0e16067f472d3fff5440dd33db87ff9f1433c",
+      "event_data": {
+        "displayed_text_hash": "ed3f3380e36684b91cff5d296b4f929150d60713d13cd4c8c50c34fab61a88d8",
+        "expected_duration_seconds": 32.13,
+        "party_id": "c29012c9-a439-4bef-9a64-4b416efcf4fb",
+        "session_token": "9fd5f8d6-2e44-435e-aa38-e470d9aaa97a"
+      },
+      "event_type": "reading_started",
+      "prev_hash": "80ab09b2c79828dc54d2f217bf9da2052c2e4e6e4c8b9cde6cbb09bcecf52fef",
+      "sequence_number": 9,
+      "timestamp": "2026-09-05T02:40:42.125408+00:00"
+    },
+    {
+      "actor_party_id": "c29012c9-a439-4bef-9a64-4b416efcf4fb",
+      "entry_hash": "8abffa4976d4b68c57a63fb088a0737461b321e8bb1369abb3f40654918c53fa",
+      "event_data": {
+        "checkpoint": "10%",
+        "party_id": "c29012c9-a439-4bef-9a64-4b416efcf4fb",
+        "session_token": "9fd5f8d6-2e44-435e-aa38-e470d9aaa97a"
+      },
+      "event_type": "reading_progress",
+      "prev_hash": "992b7ecbd8da40d487ee74b1a0a0e16067f472d3fff5440dd33db87ff9f1433c",
+      "sequence_number": 10,
+      "timestamp": "2026-09-05T02:40:43.661971+00:00"
+    },
+    {
+      "actor_party_id": "fdf54f28-a685-4148-8f4e-8471e65655bd",
+      "entry_hash": "26efcbeb2260fba29dbcfd1ceca4d0f41f67685f473503c4424e4a0fb45952cc",
+      "event_data": {
+        "credential_aaguid": "fbfc3007-154e-4ecc-8c0b-6e020557d7bd",
+        "party_id": "fdf54f28-a685-4148-8f4e-8471e65655bd",
+        "party_role": "kou",
+        "transports": []
+      },
+      "event_type": "passkey_registered",
+      "prev_hash": "8abffa4976d4b68c57a63fb088a0737461b321e8bb1369abb3f40654918c53fa",
+      "sequence_number": 11,
+      "timestamp": "2026-09-05T02:40:51.087350+00:00"
+    },
+    {
+      "actor_party_id": "fdf54f28-a685-4148-8f4e-8471e65655bd",
+      "entry_hash": "5e300c8d65ac4327dc23ec8db9d18ac2472ed1d5acaa5bc07a5fef70c50db611",
+      "event_data": {
+        "displayed_text_hash": "ed3f3380e36684b91cff5d296b4f929150d60713d13cd4c8c50c34fab61a88d8",
+        "expected_duration_seconds": 32.13,
+        "party_id": "fdf54f28-a685-4148-8f4e-8471e65655bd",
+        "session_token": "092a2599-5613-4994-8da1-e78b153ac6a8"
+      },
+      "event_type": "reading_started",
+      "prev_hash": "26efcbeb2260fba29dbcfd1ceca4d0f41f67685f473503c4424e4a0fb45952cc",
+      "sequence_number": 12,
+      "timestamp": "2026-09-05T02:40:52.449916+00:00"
+    },
+    {
+      "actor_party_id": "fdf54f28-a685-4148-8f4e-8471e65655bd",
+      "entry_hash": "732347a4bdc14d51ee2b5495d782ff3a1825d4692f4a8dac487b42197511eb76",
+      "event_data": {
+        "checkpoint": "10%",
+        "party_id": "fdf54f28-a685-4148-8f4e-8471e65655bd",
+        "session_token": "092a2599-5613-4994-8da1-e78b153ac6a8"
+      },
+      "event_type": "reading_progress",
+      "prev_hash": "5e300c8d65ac4327dc23ec8db9d18ac2472ed1d5acaa5bc07a5fef70c50db611",
+      "sequence_number": 13,
+      "timestamp": "2026-09-05T02:40:53.601418+00:00"
+    },
+    {
+      "actor_party_id": "c29012c9-a439-4bef-9a64-4b416efcf4fb",
+      "entry_hash": "546cc1ee379c94841f0bcb94760cb233df511fbe486e83a8c0711f05138c3741",
+      "event_data": {
+        "checkpoint": "100%",
+        "party_id": "c29012c9-a439-4bef-9a64-4b416efcf4fb",
+        "session_token": "9fd5f8d6-2e44-435e-aa38-e470d9aaa97a"
+      },
+      "event_type": "reading_progress",
+      "prev_hash": "732347a4bdc14d51ee2b5495d782ff3a1825d4692f4a8dac487b42197511eb76",
+      "sequence_number": 14,
+      "timestamp": "2026-09-05T02:41:15.811862+00:00"
+    },
+    {
+      "actor_party_id": "fdf54f28-a685-4148-8f4e-8471e65655bd",
+      "entry_hash": "56fc2c36b3be145f3686ecc263eaaea90bd6b110a5ba040272654052c7d55d47",
+      "event_data": {
+        "checkpoint": "100%",
+        "party_id": "fdf54f28-a685-4148-8f4e-8471e65655bd",
+        "session_token": "092a2599-5613-4994-8da1-e78b153ac6a8"
+      },
+      "event_type": "reading_progress",
+      "prev_hash": "546cc1ee379c94841f0bcb94760cb233df511fbe486e83a8c0711f05138c3741",
+      "sequence_number": 15,
+      "timestamp": "2026-09-05T02:41:25.768106+00:00"
+    },
+    {
+      "actor_party_id": "c29012c9-a439-4bef-9a64-4b416efcf4fb",
+      "entry_hash": "661c2f2309dd7604ce61511e188defde9ed872de5fed02a06ccf75fd67010ed0",
+      "event_data": {
+        "displayed_text_hash": "ed3f3380e36684b91cff5d296b4f929150d60713d13cd4c8c50c34fab61a88d8",
+        "party_id": "c29012c9-a439-4bef-9a64-4b416efcf4fb",
+        "reading_duration_seconds": 63,
+        "session_token": "9fd5f8d6-2e44-435e-aa38-e470d9aaa97a"
+      },
+      "event_type": "reading_completed",
+      "prev_hash": "56fc2c36b3be145f3686ecc263eaaea90bd6b110a5ba040272654052c7d55d47",
+      "sequence_number": 16,
+      "timestamp": "2026-09-05T02:41:45.308687+00:00"
+    },
+    {
+      "actor_party_id": "c29012c9-a439-4bef-9a64-4b416efcf4fb",
+      "entry_hash": "75b6166d3e4c9ab6e73ce93d30b43368c2c30a62adde6c3d35f6448e1a6b532d",
+      "event_data": {
+        "decision": "agreed",
+        "party_id": "c29012c9-a439-4bef-9a64-4b416efcf4fb",
+        "server_timestamp": "2026-09-05T02:41:45.301482+00:00",
+        "verified_passkey_credential_id": "2kVNrlnVTjWZ_r0q40TM1w"
+      },
+      "event_type": "party_agreed",
+      "prev_hash": "661c2f2309dd7604ce61511e188defde9ed872de5fed02a06ccf75fd67010ed0",
+      "sequence_number": 17,
+      "timestamp": "2026-09-05T02:41:45.313186+00:00"
+    },
+    {
+      "actor_party_id": "fdf54f28-a685-4148-8f4e-8471e65655bd",
+      "entry_hash": "68e8b17f4baee77ffe29f442859bab04d2add49e58c34f68f4c10c33a19cce92",
+      "event_data": {
+        "displayed_text_hash": "ed3f3380e36684b91cff5d296b4f929150d60713d13cd4c8c50c34fab61a88d8",
+        "party_id": "fdf54f28-a685-4148-8f4e-8471e65655bd",
+        "reading_duration_seconds": 62,
+        "session_token": "092a2599-5613-4994-8da1-e78b153ac6a8"
+      },
+      "event_type": "reading_completed",
+      "prev_hash": "75b6166d3e4c9ab6e73ce93d30b43368c2c30a62adde6c3d35f6448e1a6b532d",
+      "sequence_number": 18,
+      "timestamp": "2026-09-05T02:41:54.795537+00:00"
+    },
+    {
+      "actor_party_id": "fdf54f28-a685-4148-8f4e-8471e65655bd",
+      "entry_hash": "d511930ff5a746f7ed69bb324067c78c15d7295df0cd4f24ebf434f94b0c4d55",
+      "event_data": {
+        "decision": "agreed",
+        "party_id": "fdf54f28-a685-4148-8f4e-8471e65655bd",
+        "server_timestamp": "2026-09-05T02:41:54.789200+00:00",
+        "verified_passkey_credential_id": "jj-bEZ-JYlwxxaTnTleuCwV2yW0"
+      },
+      "event_type": "party_agreed",
+      "prev_hash": "68e8b17f4baee77ffe29f442859bab04d2add49e58c34f68f4c10c33a19cce92",
+      "sequence_number": 19,
+      "timestamp": "2026-09-05T02:41:54.804558+00:00"
+    },
+    {
+      "actor_party_id": null,
+      "entry_hash": "6cfff333530b424fe41a78324400ff394eceb82871498e88378a4a01f809f802",
+      "event_data": {
+        "completed_at": "2026-09-05T02:41:54.862527+00:00",
+        "party_ids": [
+          "fdf54f28-a685-4148-8f4e-8471e65655bd",
+          "c29012c9-a439-4bef-9a64-4b416efcf4fb"
+        ]
+      },
+      "event_type": "contract_completed",
+      "prev_hash": "d511930ff5a746f7ed69bb324067c78c15d7295df0cd4f24ebf434f94b0c4d55",
+      "sequence_number": 20,
+      "timestamp": "2026-09-05T02:41:54.867808+00:00"
+    }
+  ],
+  "completed_at": "2026-09-05T02:41:54.862527+00:00",
+  "contract_id": "875505b4-8fb7-4760-9e2a-6d9f7952e7c4",
+  "created_at": "2026-09-05T02:38:42.623850+00:00",
+  "full_text_hash": "ed3f3380e36684b91cff5d296b4f929150d60713d13cd4c8c50c34fab61a88d8",
+  "parties": [
+    {
+      "decision": "agreed",
+      "decision_at": "2026-09-05T02:41:54.789200+00:00",
+      "email": "coredaa5656@gmail.com",
+      "id": "fdf54f28-a685-4148-8f4e-8471e65655bd",
+      "name": "仁山金造",
+      "role": "kou",
+      "role_label": "甲"
+    },
+    {
+      "decision": "agreed",
+      "decision_at": "2026-09-05T02:41:45.301482+00:00",
+      "email": "360do.inc@gmail.com",
+      "id": "c29012c9-a439-4bef-9a64-4b416efcf4fb",
+      "name": "用山花子",
+      "role": "otsu",
+      "role_label": "乙"
+    }
+  ],
+  "product_code": "engagement",
+  "product_name": "婚約書",
+  "schema_version": 1,
+  "status": "completed"
+}
